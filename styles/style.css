@@ -10,11 +10,7 @@ Add the Google Fonts you want, remove the ones you don't.
 
 */
 
-@import url("https://fonts.googleapis.com/css2?family=Hepta+Slab|Staatliches&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400;500;600;700;800&display=swap');
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter&family=Space+Mono:wght@700&display=swap')
 
 /*
 
@@ -77,9 +73,9 @@ html {
   --hyperlink-color: rgb(255, 69, 0);
   --hyperlink-alternate-color: orangered;
   --hover-color: #111;
-  --body-typeface: "Inter", sans-serif;
-  --heading-typeface: 'Eczar', serif;
-  --project-title-typeface: 'Eczar', serif;
+  --body-typeface: 'Inter', sans-serif;
+  --heading-typeface: 'Bebas Neue', cursive;
+  --project-title-typeface: 'Space Mono', monospace;
   --heart-color: darkred;
   --off-white: #f8f8ff;
   --isabelline: #f4f0ec;
@@ -537,7 +533,7 @@ p {
   width: 100%;
   min-height: 100vh;
   background:
-    linear-gradient(0deg, rgba(0, 0, 0, 1), rgba(18, 8, 80, 0.62)),
+    linear-gradient(0deg, rgba(0, 0, 0, 1), rgba(50, 11, 85, 0.62)),
     url(/assets/temp/noise.svg);
   /* https://grainy-gradients.vercel.app/ */
 }
@@ -555,7 +551,7 @@ p {
 
 .holding-page-title {
   font-size: 2rem;
-  color: var(--accent-color);
+  color: white;
 }
 
 .holding-page-copyright {
