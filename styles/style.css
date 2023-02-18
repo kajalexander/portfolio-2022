@@ -559,6 +559,10 @@ p {
   color: var(--off-white);
 }
 
+.holding-page-animation img {
+  width: 60vw;
+  height: auto;
+}
 
 
 /*
