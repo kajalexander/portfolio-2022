@@ -11,20 +11,32 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
   <script src="https://kit.fontawesome.com/d300c2ea15.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./styles/style.css">
-  <style>
+  
+ <style>
     .holding-page-animation {
-      animation: spin 3s linear;
-    }
+  animation: spin 8s ease-in-out infinite;
+  animation-delay: 1s; 
+ }
 
-    @keyframes spin {
-      from {
-        transform: rotate(0deg);
-      }
-      to {
-        transform: rotate(360deg);
-      }
-    }
-  </style
+ @keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(180deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  70% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(360deg);
+ } 
+}
+ </style
+
 </head>
 
 <body class="holding-page">
