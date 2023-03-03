@@ -24,11 +24,6 @@ Imported stylesheets. Remove the ones you do not want to use.
 
 */
 
-@import url('make-something-fly.css');
-@import url('animated-gradient.css');
-@import url('text-stroke.css');
-@import url('stroke-shadow.css');
-@import url('scroll-to-top.css');
 /*
 
 X-Small devices (portrait phones, less than 576px) 
@@ -47,7 +42,7 @@ No media query for `xs` since this is the default in Bootstrap
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
-  cursor: url("../assets/temp/up-cursor.png"), auto !important;
+ 
 }
 
 *,
@@ -68,15 +63,15 @@ html {
 
 :root {
   --primary-text-color: #222;
-  --accent-color: #5200FF;
-  --overlay-color: #5200FF;
+  --accent-color: rgb(0, 0, 0);
+  --overlay-color: #635E9E;
   --hyperlink-color: #111;
   --hyperlink-alternate-color: rgb(149, 82, 255);
-  --hover-color: rgb(114, 75, 142);
+  --hover-color: #635E9E;
   --body-typeface: 'Inter', sans-serif;
   --heading-typeface: 'Bebas Neue', cursive;
   --project-title-typeface: 'Space Mono', monospace;
-  --heart-color: darkred;
+
   --off-white: #f8f8ff;
   --isabelline: #f4f0ec;
   --baby-powder: #fefefa;
@@ -99,7 +94,7 @@ body {
 }
 
 ::selection {
-  background: var(--accent-color);
+  background:  rgb(186, 155, 208);;
 }
 
 /* Making all images responsive */
@@ -129,7 +124,7 @@ h1 {
   font-size: 2rem;
   font-family: var(--heading-typeface);
   margin-bottom: 1rem;
-  color: var(--baby-powder);
+  color: black;
 }
 
 .project-title {
@@ -248,10 +243,6 @@ p {
   min-height: 80vh;
   display: flex;
   flex-direction: column;
-  /* background: rgb(238, 174, 202);
-  background: radial-gradient(circle,
-      rgba(238, 174, 202, 1) 0%,
-      rgba(148, 187, 233, 1) 100%); */
 }
 
 .hero-header {
@@ -265,6 +256,7 @@ p {
   justify-content: center;
   padding: 1rem;
   align-items: center;
+  font-family: var(--project-title-typeface);
 }
 
 .logo {
@@ -278,7 +270,7 @@ p {
 }
 
 .logo img {
-  max-width: 100%;
+  max-width: 60%;
   height: auto;
 }
 
@@ -309,7 +301,7 @@ p {
   flex: 1;
   align-items: center;
   justify-content: center;
-  padding: 2rem 4rem;
+  padding: 1rem 5rem;
   text-align: center;
 }
 
@@ -325,13 +317,6 @@ p {
   color: white;
 }
 
-.hero-footer-navigation {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 1rem;
-}
-
 /* This part isn't required */
 
 .projects {
@@ -341,6 +326,9 @@ p {
   flex-direction: column;
 }
 
+.hero-headline {
+  font-size: 15vw;
+}
 
 
 
