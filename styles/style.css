@@ -64,10 +64,10 @@ html {
 :root {
   --primary-text-color: #222;
   --accent-color: rgb(0, 0, 0);
-  --overlay-color: #635E9E;
+  --overlay-color:rgba(99,94,158);
   --hyperlink-color: #111;
-  --hyperlink-alternate-color: rgb(149, 82, 255);
-  --hover-color: #635E9E;
+  --hyperlink-alternate-color:rgba(99,94,158);
+  --hover-color: rgba(99,94,158);
   --body-typeface: 'Inter', sans-serif;
   --heading-typeface: 'Bebas Neue', cursive;
   --project-title-typeface: 'Space Mono', monospace;
@@ -94,7 +94,7 @@ body {
 }
 
 ::selection {
-  background:  rgb(186, 155, 208);;
+  background:  rgb(167, 163, 207);
 }
 
 /* Making all images responsive */
@@ -486,8 +486,8 @@ p {
 /* Sidebar */
 .project-aside {
   width: 100%;
-  color: white;
-  background: #635E9E;
+  color: #ffffff;
+  background: rgba(99,94,158);
   padding: 1rem;
   display: flex;
   flex-direction: column;
@@ -541,10 +541,7 @@ p {
 
 .project-details {
   width: 100%;
-  background-image: linear-gradient(-225deg,
-      #e0ddfe 0%,
-      #bab4fa 70%,
-      #282643 100%);
+  background-color: #dbd8ff );
   padding: 1rem;
 }
 
@@ -567,11 +564,8 @@ p {
   place-items: center;
   width: 100%;
   min-height: 100vh;
-  background:
-    linear-gradient(0deg, rgb(28, 27, 47), rgba(99,94,158)),
-    url(/assets/temp/noise.svg);
-  /* https://grainy-gradients.vercel.app/ */
-}
+  background: rgba(99,94,158);
+} 
 
 
 .holding-page-inner-container {
