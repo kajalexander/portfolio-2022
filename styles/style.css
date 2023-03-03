@@ -309,14 +309,6 @@ p {
   font-size: 4rem;
 }
 
-.hero-footer {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-  color: white;
-}
-
 /* This part isn't required */
 
 .projects {
@@ -327,7 +319,7 @@ p {
 }
 
 .hero-headline {
-  font-size: 15vw;
+  font-size: 10vw;
 }
 
 
@@ -863,7 +855,7 @@ a.sub-navigation-link:hover {background: var(--accent-color); color: var(--flora
   /* Padding around work grid and project page */
   .portfolio,
   .project-wrapper {
-    padding: 0.5rem;
+    padding: 5rem;
   }
 
   /* Project Page Flex Direction on Large Devices */
