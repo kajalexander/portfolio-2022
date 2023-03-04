@@ -246,6 +246,7 @@ p {
 }
 
 .hero-header {
+  min-height: 18vh;
   display: flex;
   flex-direction: column;
 }
@@ -840,13 +841,11 @@ a.sub-navigation-link:hover {background: var(--accent-color); color: var(--flora
   font-size: 10vw;
 }
 
-.arrow {
+.down-arrow {
   padding-right: 4rem;
   vertical-align: middle;
 }
 }
-
-
 
 /* Large devices (desktops, 992px and up) */
 
