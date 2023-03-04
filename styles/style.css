@@ -835,7 +835,16 @@ a.sub-navigation-link:hover {background: var(--accent-color); color: var(--flora
 
 /* Medium devices (tablets, 768px and up) */
 
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+  .hero-headline {
+  font-size: 10vw;
+}
+
+.arrow {
+  padding-right: 4rem;
+  vertical-align: middle;
+}
+}
 
 
 
