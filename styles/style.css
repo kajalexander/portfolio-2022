@@ -457,12 +457,12 @@ nav a:before {
   opacity: .8;
 }
 
-.arrow-container {
+.down-arrow-container {
   position: relative;
   height: 200px; /* adjust as needed */
 }
 
-.arrow {
+.down-arrow {
   font-size: 4rem;
   position: absolute;
   bottom: 0;
