@@ -26,23 +26,36 @@
           </a>
         </div>
         <nav class="navigation">
+          <a class="mainMenu nav-link" href="#work-wrapper">WORK</a>
           <a id="myID" class="bottomMenu nav-link" href="#bottom">ABOUT</a>
-          <a href="index.html">WORK</a>
           <a href="contact.html">CONTACT</a>
           <div id="indicator"></div>
-        </nav>       
+        </nav>
+        
+        <section id="main">
+          <script>
+            var workLink = document.querySelector(".mainMenu");
+            workLink.addEventListener("click", function (event) {
+            event.preventDefault();
+            var mainSection = document.querySelector(".work-wrapper");
+            var yOffset = -document.querySelector(".header-content").offsetHeight;
+            mainSection.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest", offset: yOffset });
+            });
+          </script>          
+        </section>      
       </div>
+
     </header>
+
     <div class="hero-headline-wrapper">
       <h1 class="hero-headline ">Transforming ideas into captivating visual experiences</h1>
       <p></p>
       <div class="down-arrow-container">
         <span class="down-arrow">&#8595;</span>
-      </div>
+      </div>      
     </div>
-  </section>
 
-  <main class="work-wrapper">
+ <main class="work-wrapper">
     <section class="portfolio">
       <ul class="grid">
         <li class="work-page-grid-item">
@@ -118,19 +131,15 @@
 
       </ul>
     </section>
-  </main>
+  <a id="bottom"></a> <!-- Define the position of the bottom scroll -->
+</main>
 
 </div>
 <ul class="global-footer">
-  <!-- Define the position of the bottom scroll -->
-<a id="bottom"></a>
   <li class="footer-item-1">
     <img src="assets/kaj-alexander-icon-hat.jpg" alt="Describe your project">
         </figure>
   </li>
-
-  <a id="bottom"></a>
-
  <li class="footer-item-2">
   <h2>About Me</h2>
   <p>/ˈkaɪ/</p>
@@ -170,6 +179,7 @@
 
   window.addEventListener("scroll", myScrollFunc);
 </script>
+
 
 <script type="text/javascript">
 // Get the elements that you want to manipulate
