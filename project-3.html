@@ -28,16 +28,17 @@
           <a href="index.html">WORK</a>
           <a href="contact.html">CONTACT</a>
           <div id="indicator"></div>
+          <div id="myID" class="bottomMenu hide"><a href="#bottom">About</a></div>
         </nav>
       </div>
     </header>
   <div class="project-wrapper">
     <aside class="project-aside">
       <div class="project-info">
-        <h1 class="project-title">Product Shoot </h1>
-        <h1 class="project-subtitle">Photography/Layout </h1>
-        <p class="project-description">For this project, I created a perfume photoshoot with a high-fashion magazine spread featuring the fragrance. I took all of the photos myself, carefully selecting the lighting, props, and backgrounds to capture the essence of the fragrance and convey its mood and feeling.</p>
-        <p class="project-description">The photos are the centerpiece of the magazine spread, with large, high-quality images of the perfume bottle and accompanying elements like flowers or other props. The layout is minimalistic, allowing the photos to take center stage and showcase the beauty and appeal of the fragrance.</p>
+        <h1 class="project-title">Project title </h1>
+        <h1 class="project-subtitle">type of project </h1>
+        <p class="project-description">decribe your project</p>
+        <p class="project-description">maybe add another paragraph.</p>
 
       </div>
       <ul class="project-navigation">
@@ -71,6 +72,8 @@
       <img src="assets/kaj-alexander-icon-hat.jpg" alt="Describe your project">
           </figure>
     </li>
+
+    <a id="bottom"></a>
 
    <li class="footer-item-2">
     <h2>About Me</h2>
@@ -113,5 +116,28 @@
 
     window.addEventListener("scroll", myScrollFunc);
   </script>
+
+ <a id="bottom"></a>
+
+ <script type="text/javascript">
+  // Get the elements that you want to manipulate
+  var myID = document.getElementById("myID");
+  var bottom = document.getElementById("bottom");
+
+  // Define the function that will handle scrolling
+  var scrollToBottom = function () {
+    // Get the position of the element you want to scroll to
+    var targetPosition = bottom.offsetTop;
+
+    // Scroll the page to the target position
+    window.scrollTo({
+      top: targetPosition,
+      behavior: "smooth"
+    });
+  };
+
+  // Add an event listener to the "About" button
+  myID.addEventListener("click", scrollToBottom);
+</script>
 </body>
 </html>

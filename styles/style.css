@@ -460,7 +460,7 @@ nav a:before {
 
 .down-arrow-container {
   position: relative;
-  height: 200px; /* adjust as needed */
+  height: 6vh; /* adjust as needed */
 }
 
 .down-arrow {
@@ -468,7 +468,6 @@ nav a:before {
   position: absolute;
   bottom: 0;
   animation: bounce 2s infinite;
-  
 }
 
 @keyframes bounce {
@@ -630,7 +629,7 @@ nav a:before {
 
 .project-image.custom-class {
   display: inline-flex;
-  width: 32%; 
+  width: 32.8%; 
   margin: 0px; 
 }
 
@@ -842,10 +841,6 @@ a.sub-navigation-link:hover {background: var(--accent-color); color: var(--flora
   font-size: 10vw;
 }
 
- .down-arrow-container {
-  padding-right: 200rem;
-  vertical-align: middle;
-}
 
 
 /* Large devices (desktops, 992px and up) */
