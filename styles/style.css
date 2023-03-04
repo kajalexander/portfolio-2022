@@ -468,6 +468,7 @@ nav a:before {
   position: absolute;
   bottom: 0;
   animation: bounce 2s infinite;
+  
 }
 
 @keyframes bounce {
@@ -841,11 +842,13 @@ a.sub-navigation-link:hover {background: var(--accent-color); color: var(--flora
   font-size: 10vw;
 }
 
-.down-arrow {
+ .down-arrow-container {
   padding-right: 4rem;
   vertical-align: middle;
-}
-}
+  align-items: center;
+  justify-content: center;
+ }
+ }
 
 /* Large devices (desktops, 992px and up) */
 
