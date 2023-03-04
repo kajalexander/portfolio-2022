@@ -238,6 +238,12 @@ p {
 ██   ██ ███████ ██   ██  ██████  
                                  
 */
+.header-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .hero {
   min-height: 100vh;
