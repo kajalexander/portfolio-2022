@@ -324,7 +324,7 @@ p {
   font-size: 10vw;
 }
 
-/* project 1 copy header hover test delete if it breaks anything  */
+/* header menu hover */
 
 nav {
   position: absolute;
@@ -630,8 +630,8 @@ nav a:before {
 
 .project-image.custom-class {
   display: inline-flex;
-  width: 30%; 
-  margin: -3px; 
+  width: 32%; 
+  margin: 0px; 
 }
 
 
@@ -843,12 +843,10 @@ a.sub-navigation-link:hover {background: var(--accent-color); color: var(--flora
 }
 
  .down-arrow-container {
-  padding-right: 4rem;
+  padding-right: 200rem;
   vertical-align: middle;
-  align-items: center;
-  justify-content: center;
- }
- }
+}
+
 
 /* Large devices (desktops, 992px and up) */
 
