@@ -628,12 +628,6 @@ nav a:before {
   padding: 3rem;
 }
 
-.project-image.custom-class {
-  display: inline-flex;
-  width: 32.8%; 
-  margin: 0px; 
-}
-
 
 /* Main Project Image Area */
 
@@ -841,6 +835,16 @@ a.sub-navigation-link:hover {background: var(--accent-color); color: var(--flora
 @media (min-width: 768px) {
   .hero-headline {
   font-size: 10vw;
+  }
+
+  .project-image.custom-class {
+    width: 100%;
+    font-size: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
 }
 
 
@@ -984,6 +988,11 @@ a.sub-navigation-link:hover {background: var(--accent-color); color: var(--flora
 
   .arrow {
     padding-right: 1rem;
+  }
+  .project-image.custom-class {
+    display: inline-flex;
+    width: 32.8%; 
+    margin: 0px; 
   }
 
 
