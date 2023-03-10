@@ -818,6 +818,44 @@ a.sub-navigation-link:hover {background: var(--accent-color); color: var(--flora
   to { transform: rotate(359deg); }
 }
 
+/* Play Page 
+
+██████  ██       █████  ██      ██
+██   ██ ██      ██   ██   ██  ██     
+██████  ██      ███████     ██  
+██      ██      ██   ██     ██    
+██      ███████ ██   ██     ██
+                                                                                               
+*/
+
+.play-project-details {
+  padding: 1rem; /* use shorthand to apply padding to all sides */
+  display: flex;
+  justify-content: space-between; /* align first and second images to opposite sides */
+}
+
+.play-project-image {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem; /* add margin to create gap */
+}
+
+.play-project-image img {
+  width: 50%;
+  max-width: 100%;
+  height: auto;
+}
+
+.play-project-image-1 img {
+  width: 80%;
+}
+
+.play-project-text-1 {
+  margin-left: 1rem; /* add margin to create gap */
+}
+
+
+
 
 /*
 
