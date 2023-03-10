@@ -546,7 +546,7 @@ nav a:before {
 }
 
 .footer-item-1 img {
-  width: 3vh;
+  width: 35vh;
 }
 
 .footer-item-1 {
@@ -641,7 +641,6 @@ nav a:before {
   padding: 1rem;
 }
 
-}
 .project-description {
 
   max-height: calc(100% - 80px);
