@@ -223,10 +223,11 @@ p {
 }
 
 .project-description {
-  font-size: 1.25rem;
+  font-size: clamp(1rem, 1.5vw, 1.25rem);
   line-height: 1.3;
   margin-bottom: 1rem;
 }
+
 
 
 
@@ -545,7 +546,7 @@ nav a:before {
 }
 
 .footer-item-1 img {
-  width: 35vh;
+  width: 3vh;
 }
 
 .footer-item-1 {
@@ -640,7 +641,12 @@ nav a:before {
   padding: 1rem;
 }
 
+}
+.project-description {
 
+  max-height: calc(100% - 80px);
+  overflow: hidden;
+}
 
 
 
