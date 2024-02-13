@@ -233,6 +233,11 @@ a:active  { color: var(--hover-color); /* Tap on mobile */ }
   background-position: center center;
 }
 
+.navigation {
+  margin: 0;
+  display: flex;
+  justify-content: flex-end; /* Align items to the right edge */
+}
 
 /* Hero 
 
@@ -266,26 +271,31 @@ a:active  { color: var(--hover-color); /* Tap on mobile */ }
 }
 
 .logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5rem; 
+  padding: 3rem;
+  margin-left: 4rem;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  width: 5rem;
-  margin: 0 auto;
-  text-align: center;
+  align-items: center;
+  text-align: auto;
 }
 
 .logo img {
-  max-width: 60%;
-  height: auto;
-}
+  max-width: 6rem; 
+  height: auto; 
+} 
+
 
 .logo-text-1 {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: bold;
   margin-top: 0.5rem;
   margin-bottom: 0;
   text-align: center;
+  white-space: nowrap;
 }
 
 
@@ -322,15 +332,15 @@ a:active  { color: var(--hover-color); /* Tap on mobile */ }
 }
 
 /* header menu hover */
-
+/*
 nav {
-  position: absolute;
+  position: absolute; */
   right: 0;
   left: 0;
   width: 19.9375em;
   display: table;
   margin: 0 auto;
-}
+} */
 
 nav a {
   position: relative;
@@ -1331,11 +1341,12 @@ a.sub-navigation-link:hover {background: var(--accent-color); color: var(--flora
   .arrow {
     padding-right: 1rem;
   }
-  .project-image.custom-class {
-    display: inline-flex;
-    width: 32.8%; 
-    margin: 0px; 
-  }
+
+ .navigation {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
 
 
 }
