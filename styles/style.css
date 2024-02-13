@@ -332,9 +332,9 @@ a:active  { color: var(--hover-color); /* Tap on mobile */ }
 }
 
 /* header menu hover */
-/*
-nav {
-  position: absolute; */
+
+/* nav {
+  position: absolute; 
   right: 0;
   left: 0;
   width: 19.9375em;
