@@ -234,9 +234,17 @@ a:active  { color: var(--hover-color); /* Tap on mobile */ }
 }
 
 .navigation {
-  margin: 0;
-  display: flex;
-  justify-content: flex-end; /* Align items to the right edge */
+  position: absolute;
+  top: 5rem; 
+  right: 4rem;
+  display: flex; 
+  justify-content: center; 
+  gap: 2rem;
+}
+
+.mainMenu,
+.bottomMenu {
+  font-weight: bold;
 }
 
 /* Hero 
@@ -1342,11 +1350,11 @@ a.sub-navigation-link:hover {background: var(--accent-color); color: var(--flora
     padding-right: 1rem;
   }
 
- .navigation {
+/* .navigation {
   position: absolute;
   top: 0;
   right: 0;
-}
+} */
 
 
 }
