@@ -325,8 +325,6 @@ a:active  { color: var(--hover-color); /* Tap on mobile */ }
   font-size: 4rem;
 }
 
-/* This part isn't required */
-
 .projects {
   background: #111;
   min-height: 100vh;
