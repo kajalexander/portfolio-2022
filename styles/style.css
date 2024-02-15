@@ -527,7 +527,7 @@ nav a {
   grid-gap: 3rem;
   min-height: 100vh;
   background: #ffffff;
-  padding: 10rem;
+  padding: 20vh 10vw 10vw 10vw;
 }
 
 .footer-item-1 img {
