@@ -448,15 +448,16 @@ nav a {
 }
 
 .down-arrow-container {
-  position: relative;
-  height: 6vh; /* adjust as needed */
+  position: relative; /* Necessary for stacking elements */
+  height: 6vh; /* Adjust as needed */
+  display: flex;
+  justify-content: center; /* Horizontally center content */
+  align-items: center; /* Vertically center content (optional) */
 }
 
 .down-arrow {
   font-size: 4rem;
-  position: absolute;
-  bottom: 0;
-  animation: bounce 2s infinite;
+  animation: bounce 2s infinite; /* Add your animation styles here */
 }
 
 @keyframes bounce {

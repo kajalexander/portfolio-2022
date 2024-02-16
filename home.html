@@ -53,6 +53,19 @@
      <a class="down-arrow-container" onclick="scrollToSection('#work-wrapper')">
       <span class="down-arrow">&#8595;</span>
      </a>  
+     
+     <section id="main">
+      <script>
+        var workLink = document.querySelector(".down-arrow-container");
+        workLink.addEventListener("click", function (event) {
+        event.preventDefault();
+        var mainSection = document.querySelector(".work-wrapper");
+        var yOffset = -document.querySelector(".header-content").offsetHeight;
+        mainSection.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest", offset: yOffset });
+        });
+      </script>          
+    </section>  
+    
     </div>
 
  <main class="work-wrapper">
@@ -206,5 +219,8 @@ var scrollToBottom = function () {
 // Add an event listener to the "About" button
 myID.addEventListener("click", scrollToBottom);
 </script>
+
+
+
 </body>
 </html>
