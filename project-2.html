@@ -25,7 +25,7 @@
             </a>
           </div>
           <nav class="navigation">
-            <a class="mainMenu nav-link" href="#work-wrapper"><strong>PROJECTS</strong></a>
+            <a class="mainMenu nav-link" href="#project-wrapper"><strong>PROJECTS</strong></a>
             <span class="separator"></span>
            <!-- <a id="myID" class="bottomMenu nav-link" href="#bottom"><strong>ABOUT</strong></a> -->
           </nav>        
@@ -35,7 +35,7 @@
               var workLink = document.querySelector(".mainMenu");
               workLink.addEventListener("click", function (event) {
               event.preventDefault();
-              var mainSection = document.querySelector(".work-wrapper");
+              var mainSection = document.querySelector(".project-wrapper");
               var yOffset = -document.querySelector(".header-content").offsetHeight;
               mainSection.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest", offset: yOffset });
               });
