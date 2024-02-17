@@ -280,6 +280,7 @@ a:active  { color: var(--hover-color); /* Tap on mobile */ }
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-color: #ffffff;
 }
 
 .hero-header {
@@ -400,12 +401,13 @@ nav a {
 
 .work-wrapper {
   flex: 1;
+  background-color: rgb(255, 255, 255); /* Updated color */
 }
 
 /* Padding around work grid and project page */
 
 .project-wrapper {
-  padding: .25rem
+  padding: .25rem;
 }
 
 /* Defining the work page grid */
