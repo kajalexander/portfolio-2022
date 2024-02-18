@@ -128,7 +128,7 @@ h1 {
   font-size: 6rem;
   font-family: var(--heading-typeface);
   margin-bottom: 1rem;
-  color: #10021a;
+  color: black;
   font-weight: 900;
 }
 
@@ -159,7 +159,7 @@ h2 {
   font-size: 1.6rem;
   font-family: var(--heading-typeface);
   margin-bottom: 1rem;
-  color: rgb(189, 189, 189);
+  color: var(--accent-color);
   font-weight: bold;
 }
 
@@ -355,6 +355,7 @@ a:active  { color: var(--hover-color); /* Tap on mobile */ }
 
 .hero-headline {
   font-size: 10vw;
+  color: var(--accent-color);
 }
 
 /* header menu hover */
@@ -560,6 +561,17 @@ nav a {
   grid-row: 4 / 5;
 }
 
+.socials-list .social-item i {
+  font-size: 2.5rem;
+  color: var(--accent-color);
+  margin-right: 1.5rem;
+}
+
+.socials-list {
+  display: flex;
+}
+
+
 /* Project Page 
 
 ██████  ██████   ██████       ██ ███████  ██████ ████████     ██████   █████   ██████  ███████ 
@@ -694,6 +706,29 @@ nav a {
   background-color: var(--accent-color);
   margin-top: 10px; /* Adjust spacing as needed */
 }
+
+.project-more {
+  padding: 10rem 0;
+  text-align: center;
+}
+
+.project-more-image a:not(:last-child) {
+  margin-right: 2rem; /* Adjust the value for desired spacing */
+}
+
+.project-more h2 {
+  margin-bottom: 4rem; /* Adjust the value for desired spacing */
+}
+
+@media only screen and (max-width: 768px) {
+  .project-more-image {
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    padding: 1rem;
+  }
+}
+
+
 
 /* 
 
