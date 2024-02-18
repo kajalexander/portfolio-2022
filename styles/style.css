@@ -710,6 +710,7 @@ nav a {
 .project-more {
   padding: 10rem 0;
   text-align: center;
+  background-color: white;
 }
 
 .project-more-image a:not(:last-child) {
