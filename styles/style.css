@@ -476,6 +476,45 @@ nav a {
   }
 }
 
+.btn {
+  /* Base styles for all buttons */
+  box-sizing: border-box;
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid var(--hover-color); 
+  border-radius: 2em;
+  color: var(--accent-color); 
+  cursor: pointer;
+  transition: color 150ms ease-in-out;
+  padding: 1rem 2rem; 
+  font-family: var(--project-);
+  margin: 0.5rem 1rem;
+}
+
+.first {
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  /* Other existing styles for your button ... */
+
+  &:hover {
+    box-shadow: 0 0 40px 40px var(--hover-color) inset; /* Adjust color if needed */
+    color: white
+  }
+}
+
+.button-container {
+  display: flex;  /* Makes the container a flexbox */
+  justify-content: center;  /* Centers content horizontally within the container */
+  margin-bottom: 2rem;
+  
+}
+
+.active {
+  
+  box-shadow: 0 0 40px 40px var(--hover-color) inset; /* Adjust color if needed */
+  color: white;
+}
+
+
 
 
 
