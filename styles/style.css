@@ -920,7 +920,7 @@ body {
   border: .4rem solid #43192d;
   height: 80%;
   max-height: 13.2rem;
-  background-color: #43192d;
+  background-color: var(--hover-color);
   margin-top: 2rem;
 }
 
